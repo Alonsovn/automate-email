@@ -7,7 +7,7 @@ pip install virtualenv
 Upgrade pip  
 pip install --upgrade pip 
 
-Create virtual environmet  
+Create virtual environment  
 virtualenv dev
 
 Activate  
