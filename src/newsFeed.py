@@ -6,7 +6,7 @@ class NewsFeed:
     base_url = "https://newsapi.org/v2/everything?"
     API_KEY = "be59b26e45d2472da851b555881647ac"
 
-    def __init__(self, interest, date_from, date_to, language):
+    def __init__(self, interest, date_from, date_to, language= "en"):
         self.interest = interest
         self.date_from = date_from
         self.date_to = date_to
