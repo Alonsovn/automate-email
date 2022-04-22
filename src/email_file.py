@@ -15,7 +15,7 @@ def send_email():
         news_feed = NewsFeed(interest=row['interest'], date_from=date_from,
                              date_to=date_to)
         email = yagmail.SMTP(user="alonsonh94@gmail.com",
-                             password="fluidrnjqkpktrvt")
+                             password="pwd")
         email.send(to=row['email'],
                    subject=f"Your {row['interest']} news for today!",
                    contents=f"Hi {row['name']}\n See what's on about {row['interest']} today."
